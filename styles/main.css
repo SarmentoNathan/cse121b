@@ -114,6 +114,12 @@ section {
 
 article {
     margin-bottom: 1rem;
+    width: 240px;
+    height: auto;
+    border-radius: 5%;
+    border: 1px cadetblue;
+    box-shadow: 0 0 30px #777;
+    color: darkblue;
 }
 
 article div {
@@ -246,7 +252,7 @@ footer {
     color: #eee;
 }
 
-#temples {
+#books {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: .5rem;
@@ -254,7 +260,7 @@ footer {
     margin-bottom: 3rem;
 }
 
-#temples article {
+#books article {
     height: 250px;
     margin: .5rem;
     border: 1px solid rgba(0, 0, 0, .1);
@@ -266,7 +272,7 @@ footer {
     justify-content: center;
 }
 
-#temples h4 {
+#books h4 {
     color: navy;
     font-size: smaller;
 }
